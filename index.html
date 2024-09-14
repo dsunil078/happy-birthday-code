@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Birthday Wishes for Veluru Manoj</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background: linear-gradient(135deg, #fffcf9, #f0f8ff);
+            text-align: center;
+            color: #333;
+        }
+
+        .container {
+            position: relative;
+            z-index: 1;
+            padding: 50px;
+        }
+
+        h1 {
+            color: #ff69b4;
+            font-size: 3em;
+            margin: 0;
+            animation: fadeIn 2s ease-in-out;
+        }
+
+        .cake {
+            font-size: 5em;
+            margin: 20px 0;
+            animation: bounceIn 1s ease-in-out;
+        }
+
+        .message {
+            background: #fff5e6;
+            border: 2px solid #f4a460;
+            border-radius: 15px;
+            padding: 20px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+            display: inline-block;
+            max-width: 600px;
+            margin: auto;
+            font-size: 1.2em;
+            line-height: 1.6;
+            animation: slideIn 1s ease-out;
+        }
+
+        .confetti {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            pointer-events: none;
+            overflow: hidden;
+            z-index: -2;
+        }
+
+        .confetti div {
+            position: absolute;
+            width: 10px;
+            height: 10px;
+            background: rgba(255, 223, 0, 0.8);
+            animation: confetti 5s infinite;
+        }
+
+        .balloons {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            pointer-events: none;
+            z-index: -1;
+            overflow: hidden;
+        }
+
+        .balloons div {
+            position: absolute;
+            background-size: cover;
+            background-repeat: no-repeat;
+            width: 100px;
+            height: 100px;
+            background-position: center;
+            animation: float 10s ease-in-out infinite;
+        }
+
+        .fireworks {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            pointer-events: none;
+            overflow: hidden;
+            z-index: -3;
+        }
+
+        .fireworks div {
+            position: absolute;
+            width: 20px;
+            height: 20px;
+            background-color: transparent;
+            border-radius: 50%;
+            box-shadow: 0 0 20px rgba(255, 0, 0, 0.8), 0 0 30px rgba(255, 0, 0, 0.5);
+            animation: fireworks 2s ease-out infinite;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+
+        @keyframes bounceIn {
+            from {
+                transform: scale(0.5);
+                opacity: 0;
+            }
+            50% {
+                transform: scale(1.1);
+                opacity: 1;
+            }
+            to {
+                transform: scale(1);
+            }
+        }
+
+        @keyframes slideIn {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes float {
+            0% {
+                transform: translateY(0);
+            }
+            100% {
+                transform: translateY(-100vh);
+            }
+        }
+
+        @keyframes confetti {
+            0% {
+                transform: translateY(0) rotate(0deg);
+                opacity: 1;
+            }
+            100% {
+                transform: translateY(100vh) rotate(360deg);
+                opacity: 0;
+            }
+        }
+
+        @keyframes fireworks {
+            0% {
+                transform: scale(1);
+                opacity: 0.8;
+            }
+            50% {
+                transform: scale(2);
+                opacity: 0.5;
+            }
+            100% {
+                transform: scale(0);
+                opacity: 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Happy Birthday, Veluru Manoj!</h1>
+        <div class="cake">🎂</div>
+        <div class="message">
+            <p>🎉 Wishing you a fantastic birthday filled with joy, love, and all your favorite things! 🎈</p>
+            <p>May this year bring you success, happiness, and countless moments to cherish. 🎁</p>
+            <p>Here's to celebrating you and all the wonderful things you bring to the world. Enjoy your special day!</p>
+        </div>
+    </div>
+
+    <div class="balloons">
+        <!-- Balloon animation elements -->
+        <div style="background-image: url('https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/240/whatsapp/285/balloon_1f388.png'); left: 10%;"></div>
+        <div style="background-image: url('https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/240/whatsapp/285/balloon_1f388.png'); left: 30%;"></div>
+        <div style="background-image: url('https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/240/whatsapp/285/balloon_1f388.png'); left: 50%;"></div>
+        <div style="background-image: url('https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/240/whatsapp/285/balloon_1f388.png'); left: 70%;"></div>
+        <div style="background-image: url('https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/240/whatsapp/285/balloon_1f388.png'); left: 90%;"></div>
+    </div>
+
+    <div class="confetti">
+        <!-- Confetti animation elements -->
+        <div style="left: 10%; animation-duration: 4s; background: rgba(255, 223, 0, 0.8);"></div>
+        <div style="left: 30%; animation-duration: 5s; background: rgba(255, 69, 0, 0.8);"></div>
+        <div style="left: 50%; animation-duration: 6s; background: rgba(50, 205, 50, 0.8);"></div>
+        <div style="left: 70%; animation-duration: 4s; background: rgba(30, 144, 255, 0.8);"></div>
+        <div style="left: 90%; animation-duration: 5s; background: rgba(255, 105, 180, 0.8);"></div>
+    </div>
+
+    <div class="fireworks">
+        <!-- Fireworks animation elements -->
+        <div style="left: 10%; top: 20%; animation-duration: 2s;"></div>
+        <div style="left: 30%; top: 30%; animation-duration: 2.5s;"></div>
+        <div style="left: 50%; top: 40%; animation-duration: 3s;"></div>
+        <div style="left: 70%; top: 50%; animation-duration: 3.5s;"></div>
+    </div>
+
+    <script>
+        // Fireworks effect
+        document.querySelectorAll('.fireworks div').forEach((el) => {
+            el.style.background = 'radial-gradient(circle, rgba(255,0,0,0.8), rgba(255,255,0,0.8))';
+            el.style.boxShadow = '0 0 20px rgba(255, 0, 0, 0.8)';
+        });
+    </script>
+</body>
+</html>
